@@ -70,3 +70,58 @@ a{
 img{
     width:80%;
 }
+
+@media (max-width:768px){
+    a{
+        color:red;
+    }
+
+    main{
+        width:100%;
+        margin:0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;}
+    button{
+        width:80px;
+        height: 80px;
+    }   
+    .estadisticas{
+        border: 1px solid white;
+    height: 70px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    } 
+
+    .section2{
+        height: 300px;
+    }
+
+    footer{
+        margin-top:50px;
+    }
+
+    #aciertos{
+        
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+    }
+
+    #tiempoRestante{
+        
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+    }
+
+    #movimientos{
+        
+        margin-top: 6px;
+        margin-bottom: 6px;
+
+    }
+
+
+}
